@@ -1,2 +1,5 @@
 venv
 .idea
+*.pt
+*.bin
+.ipynb_checkpoints/
