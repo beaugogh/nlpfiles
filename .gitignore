@@ -3,3 +3,5 @@ venv
 *.pt
 *.bin
 .ipynb_checkpoints/
+*.zip
+
