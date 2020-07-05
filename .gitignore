@@ -4,4 +4,4 @@ venv
 *.bin
 .ipynb_checkpoints/
 *.zip
-#models/pretrained
+models/pretrained
