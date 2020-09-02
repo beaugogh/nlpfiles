@@ -42,6 +42,11 @@ sudo usermod -aG docker <username>
 ```
 **Note:** you need to re-login to enable your new privileges. Either just restart the terminal or run: `su - ${USER}`
 
+### If you still need sudo to use docker, try this:
+```
+sudo chmod 666 /var/run/docker.sock
+```
+
 ### Download & install docker-compose
 
 If there is a more recent version of docker-compose then replace the version below. You can check it [here](https://github.com/docker/compose/releases/).
