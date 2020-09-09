@@ -52,7 +52,7 @@ the run file will start to be downloaded via your browser.
     `wget https://us.download.nvidia.com/tesla/418.152.00/NVIDIA-Linux-x86_64-418.152.00.run`
     
 3. Run .run file in remote:
-    `sudo sh /NVIDIA-Linux-x86_64-418.152.00.run`
+    `sudo sh path/to/NVIDIA-Linux-x86_64-418.152.00.run`
 
 4. Verify:
     `nvidia-smi`
