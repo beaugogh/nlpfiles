@@ -12,6 +12,7 @@
 #### check gpu:
 * `nvidia-smi`
 * `sudo lshw -C display`
+* `sudo hwinfo  --gfxcard --short`
 
 
 #### check cpu:
