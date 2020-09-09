@@ -2,6 +2,9 @@
 
 This tutorial shows installation of Nvidia driver 435, and CUDA 10.1 on Ubuntu16.04.
 
+Remark: A good reference can be found [here](https://gist.github.com/wangruohui/df039f0dc434d6486f5d4d098aa52d07)
+
+
 Typically you do,
 	```
 	sudo -E add-apt-repository ppa:graphics-drivers/ppa
