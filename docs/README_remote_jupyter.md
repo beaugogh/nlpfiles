@@ -1,13 +1,4 @@
 ##  Run a Jupyter notebook remotely and access it locally
-Bo Gao, July 28, 2020
-
-#### Prerequisites: 
-* You have access to a remote Linux machine, for example,
-    one of our instances in Frankfurt, 
-    which has Ubuntu 18.04 pre-installed. For access to this machine, 
-    please ask Robin Cahierre WX920149 or Bo Gao b00563677.
-* Basic understanding of Python, Python virtual environment
-    and Jupyter notebooks.
 
 #### Step 1: Run Jupyter notebook from remote machine:
 It is recommended to run the notebook 
