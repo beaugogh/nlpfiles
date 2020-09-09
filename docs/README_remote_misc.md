@@ -41,7 +41,4 @@
 ## Add or delete user
 see [here](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
 
-## Intall Nvidia driver and cuda
-see [here](https://gist.github.com/wangruohui/df039f0dc434d6486f5d4d098aa52d07)
-
 
