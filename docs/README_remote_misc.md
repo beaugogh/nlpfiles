@@ -42,5 +42,7 @@
 * Add user: see [here](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
 * Make the current user own everything inside the folder (and the folder itself): `sudo chown -R $USER ~/.blabla`
 
+## Remote copy
+see http://www.hypexr.org/linux_scp_help.php
 
 
