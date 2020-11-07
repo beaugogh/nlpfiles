@@ -6,7 +6,8 @@
 `vmstat -s`
 
 #### check disks:
-`lsblk` and `df`
+* `lsblk` and `df`
+* show the sizes of sub-directories: `du -hs * | sort -hr`
 
 
 #### check gpu:
