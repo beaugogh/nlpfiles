@@ -32,18 +32,21 @@
 * restore a screen: `screen -r SESSION_ID`
 
 
-## Extend LVMs on Linux
-[useful reference](https://www.howtogeek.com/howto/40702/how-to-manage-and-use-lvm-logical-volume-management-in-ubuntu/)
+## Remote copy
+see http://www.hypexr.org/linux_scp_help.php
 
-1. `sudo lvextend -L+3G /PATH/TO/LVM`
-2. `sudo resize2fs /PATH/TO/LVM`
+
+## 7zip
+* extract multi-part files
+`7z x part.01 -tsplit`
 
 
 ## User
 * Add user: see [here](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04)
 * Make the current user own everything inside the folder (and the folder itself): `sudo chown -R $USER ~/.blabla`
 
-## Remote copy
-see http://www.hypexr.org/linux_scp_help.php
+## Extend LVMs on Linux
+[useful reference](https://www.howtogeek.com/howto/40702/how-to-manage-and-use-lvm-logical-volume-management-in-ubuntu/)
 
-
+1. `sudo lvextend -L+3G /PATH/TO/LVM`
+2. `sudo resize2fs /PATH/TO/LVM`
