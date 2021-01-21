@@ -8,7 +8,7 @@ If you haven't installed notebook, install it:
 (venv) $ pip install notebook
 ```
 Give your remote notebook a port number of your choice, and
-(optionally) specify your server ip if you don't want to do the forwarding in step 2:
+(optionally) specify your server ip if you don't want to do the ip forwarding in step 2:
 ```shell script
 (venv) $ jupyter notebook --no-browser --ip=xx.xx.xx.xx --port=XXXX
 ```
