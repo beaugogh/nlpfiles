@@ -48,7 +48,7 @@ If you forwarded the remote port to your local in step 2:
 `http://localhost:YYYY/?token=...`
 
 If you skipped step 2, directly go to the remote notebook, e.g.
-`10.206.41.17:1234`, you'd be prompted to input your token the first time, 
+`http://10.206.41.17:1234`, you'd be prompted to input your token the first time, 
 which you can find in the remote shell log.
 
 Now you should have the notebook running locally, of which
