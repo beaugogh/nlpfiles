@@ -7,16 +7,8 @@ If you haven't installed notebook, install it:
 ```shell script
 (venv) $ pip install notebook
 ```
-Give your remote notebook a port number of your choice.
-```shell script
-(venv) $ jupyter notebook --no-browser --port=XXXX
-```
-e.g. 
-```shell script
-(venv) $ jupyter notebook --no-browser --port=1234
-```
-
-Alternative: directly specify the remote IP
+Give your remote notebook a port number of your choice, and
+(optionally) specify your server ip if you don't want to do the forwarding in step 2:
 ```shell script
 (venv) $ jupyter notebook --no-browser --ip=xx.xx.xx.xx --port=XXXX
 ```
@@ -25,7 +17,7 @@ e.g.
 (venv) $ jupyter notebook --no-browser --ip=10.206.41.17 --port=1234
 ```
 
-#### Step 2: Forward port XXXX to YYYY and listen to it
+#### Step 2 (optional): Forward port XXXX to YYYY and listen to it
 On you local terminal, do
 ```shell script
 ssh -N -f -L localhost:YYYY:localhost:XXXX remoteuser@remotehost
@@ -50,8 +42,14 @@ Remark: when the notebook is run with explicitly specified IP, the localhost to 
 #### Step 3: Fire-up Jupyter Notebook
 Copy and paste the notebook URL printed 
 in the remote machine terminal, with its token,
-into your local browser
+into your local browser:
+
+If you forwarded the remote port to your local in step 2:
 `http://localhost:YYYY/?token=...`
+
+If you skipped step 2, directly go to the remote notebook, e.g.
+`10.206.41.17:1234`, you'd be prompted to input your token the first time, 
+which you can find in the remote shell log.
 
 Now you should have the notebook running locally, of which
 the interpreter is sitting in the remote.
