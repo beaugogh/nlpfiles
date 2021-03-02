@@ -12,6 +12,7 @@ reference: https://github.com/stanfordnlp/stanza/issues/275
     
 * Download Stanza models manually according to the model version and language(s) of your choosing:
     - https://nlp.stanford.edu/software/stanza/1.1.0/en/default.zip
+    - (for chinese model the url is: https://nlp.stanford.edu/software/stanza/1.1.0/zh-hans/default.zip)
     - If you don't want to download the default model, consult this page for alternatives:
       https://stanfordnlp.github.io/stanza/available_models.html
 
