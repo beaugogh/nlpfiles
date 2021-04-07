@@ -14,7 +14,7 @@ Give your remote notebook a port number of your choice, and
 ```
 e.g. 
 ```shell script
-(venv) $ jupyter notebook --no-browser --ip=10.206.41.17 --port=1234
+(venv) $ jupyter notebook --no-browser --ip=7.191.137.117 --port=1234
 ```
 
 #### Step 2 (optional): Forward port XXXX to YYYY and listen to it
